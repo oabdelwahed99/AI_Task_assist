@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-plex), "IBM Plex Sans Arabic", "Segoe UI", "Geeza Pro", Tahoma, system-ui, sans-serif;
+  --color-wa-teal: #075e54;
+  --color-wa-green: #25d366;
+  --color-wa-bubble: #d9fdd3;
+  --color-wa-bg: #efeae2;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  @apply bg-slate-100 text-slate-900 antialiased;
+}
